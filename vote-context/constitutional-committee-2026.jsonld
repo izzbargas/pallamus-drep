@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "I am voting YES on the Update Constitutional Committee 2026 governance action.\n\nThis action implements the outcome of the 2026 Constitutional Committee election by updating committee membership to reflect the candidates selected through the established DRep voting process.\n\nFor me, this vote is not about whether I personally agree with every view, statement, or action of every individual elected. It is about respecting a legitimate governance process and honoring its verified outcome.\n\nDecentralized governance only has meaning if the community is willing to accept the results of the processes it has agreed to use. Elections cannot become symbolic exercises where results are respected only when they align with our individual preferences.\n\nThe Constitutional Committee has a specific and important role within Cardano governance: determining whether governance actions comply with the Cardano Constitution. Its purpose is not to dictate policy or replace the judgment of DReps, SPOs, or ADA holders, but to serve as an independent constitutional safeguard within the broader governance system.\n\nUpdating the committee in accordance with the election results also supports continuity, accountability, and the orderly transfer of governance responsibility.\n\nI have seen no compelling evidence that the election process or its outcome was invalid, nor any reason to reject the implementation of the results.\n\nDecentralization does not happen simply because the protocol allows it. It happens because the community deliberately practices it. That includes participating in elections, respecting their outcomes, and allowing Cardano’s governance institutions to evolve through transparent community-driven processes.\n\nFor those reasons, I vote YES."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
