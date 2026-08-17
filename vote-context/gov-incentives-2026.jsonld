@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "Vote: NO\n\nI am voting NO on the Governance Incentives Framework 2026 proposal in its current form.\n\nI want to be clear that I am not opposed to the underlying objective of this proposal. Cardano governance needs sustainable participation, and the questions surrounding DRep engagement, voter participation, concentration of voting power, and the long-term sustainability of governance actors are important ones.\n\nI also believe there is value in researching whether carefully designed incentives could improve governance participation without undermining decentralization.\n\nMy concern is with the level of specificity provided for the funding request itself.\n\nThe proposal requests more than ₳4.2 million from the Cardano Treasury to research, model, test, and pilot potential governance incentive mechanisms. I understand that the purpose of this work is to determine what an effective incentive framework might ultimately look like. I therefore do not expect the proposers to already know the final reward formula or permanent compensation model before the research is completed.\n\nHowever, there is an important distinction between leaving the final research outcome open and leaving the structure of the funded experiment insufficiently defined.\n\nBefore authorizing a Treasury withdrawal of this size, I believe DReps and ADA holders should have greater clarity regarding how the funded pilot will operate, how Treasury funds will be controlled, and what safeguards will govern the experiment.\n\nIn particular, I would like to see clearer answers to several questions.\n\nHow will participants in the real-ADA incentive pilot be selected?\n\nWhat eligibility requirements will apply?\n\nHow much of the overall Treasury request is specifically intended for incentive distribution, and how much is allocated to research, administration, development, community engagement, data collection, and other expenses?\n\nHow will ADA used in the pilot be distributed among participants?\n\nWhat limits or caps will be placed on individual distributions?\n\nWho will have authority over those distributions, and what oversight will exist over that process?\n\nWhat safeguards will prevent conflicts of interest between the parties designing, administering, evaluating, and potentially benefiting from the incentive system?\n\nWhat mechanisms will be used to prevent gaming, superficial participation, vote farming, or behavior designed primarily to maximize rewards rather than improve governance quality?\n\nHow will the pilot avoid reinforcing the very concentration of voting power that the proposal identifies as a concern?\n\nWhat objective criteria will determine whether the pilot is successful, unsuccessful, or produces mixed results?\n\nWhat conditions would cause the experiment to be modified, paused, or terminated?\n\nWhat happens to ADA that is budgeted but ultimately not required?\n\nHow will expenditures and distributions be reported to the community throughout the project?\n\nThese questions matter because incentive systems can change behavior in ways that are difficult to reverse once financial expectations become established.\n\nCardano should be especially careful when introducing monetary incentives into governance. Poorly designed incentives could encourage participation in quantity while reducing participation in quality. They could reward activity rather than judgment, create new opportunities for gaming, advantage already dominant governance actors, or unintentionally encourage further concentration of delegated voting power.\n\nThe proposal itself recognizes many of these risks, which is one reason I believe the subject deserves serious research.\n\nBut recognizing those risks also strengthens the argument for clearly defining the boundaries and safeguards of the experiment before Treasury funds are approved.\n\nA research proposal does not need to predetermine its conclusions. It should, however, clearly define the experiment being funded.\n\nFor a Treasury withdrawal exceeding four million ADA, I believe the community should be able to understand with reasonable precision what is being purchased, how funds will be deployed, what financial controls will apply, how success will be measured, and how the community will be protected if the experiment produces unintended consequences.\n\nAt this stage, I do not believe the proposal provides enough clarity in those areas for me to responsibly support the withdrawal.\n\nThis should not be interpreted as opposition to governance incentives themselves.\n\nI am open to the possibility that governance incentives could eventually play a useful role in Cardano. Meaningful governance participation requires time, research, analysis, communication, and accountability, and there is a legitimate discussion to be had about whether those contributions should be compensated.\n\nBut supporting the research question does not automatically mean supporting every funding structure proposed to investigate it.\n\nTreasury governance requires us to evaluate not only whether an idea has merit, but whether the specific request before us is sufficiently defined, accountable, and proportionate.\n\nMy responsibility as a DRep is not simply to determine whether I like the intended outcome. It is also to determine whether I can reasonably explain to my delegators what their Treasury is funding and what protections exist around that expenditure.\n\nIn this case, I do not yet believe I can do that with sufficient confidence.\n\nFor those reasons, I am voting NO in its current form.\n\nI would be willing to reconsider a revised proposal that provides greater detail regarding the pilot design, participant selection, distribution mechanics, spending controls, oversight, conflict-of-interest protections, anti-gaming safeguards, measurable success criteria, reporting requirements, and treatment of unused Treasury funds.\n\nGovernance experimentation can be valuable, and Cardano should continue exploring ways to improve participation and decentralization.\n\nBut experimentation funded by the Treasury should have clearly defined boundaries and accountability from the beginning.\n\nBefore committing more than ₳4.2 million, I believe we should understand not only why this research is worth pursuing, but also how the experiment will be conducted, how Treasury ADA will be controlled, who may receive it, under what conditions, and with what safeguards.\n\nUntil those questions are answered more clearly, I can't responsibly support this Treasury withdrawal."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
