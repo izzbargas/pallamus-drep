@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "NO — I recognize the potential value OpenZeppelin can bring to Cardano and I support efforts to strengthen the ecosystem’s developer infrastructure and security tooling. However, I am not convinced that the requested 11,787,063 ADA expenditure has been sufficiently demonstrated to be distinct from existing or ongoing Cardano ecosystem initiatives.\n\nAt this level of expenditure, the burden of proof should be high. The community should have a clear accounting of what capabilities already exist, what work is currently underway elsewhere in the ecosystem, what specific gaps remain, and why this particular scope requires an additional treasury commitment of this magnitude.\n\nThe proposal includes milestone-based controls and oversight, which I acknowledge positively. However, good administration does not by itself resolve questions of potential duplication, scope, necessity, or overall value to the treasury.\n\nUntil those questions are addressed with greater clarity, I cannot justify this withdrawal. I am therefore voting NO."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
