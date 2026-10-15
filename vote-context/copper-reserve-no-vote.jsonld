@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "Vote: NO\n\nGovernance Action: Cardano Strategic Copper Reserve | ₳22M RWA Tokenization\n\nI support the development of real-world asset (RWA) tokenization on Cardano. However, supporting innovation does not mean granting unconditional access to our treasury. Every proposal must demonstrate responsible stewardship, measurable ecosystem benefits, appropriate risk allocation, and accountability to the community.\n\nThis proposal fails to satisfy those expectations.\n\nThe request for ₳22 million places substantial treasury resources into a commodity-backed commercial venture where capital recovery is not guaranteed. Approximately one-third of the requested funding is allocated to expenses beyond the acquisition of physical copper, including technology development, administration, operations, and oversight.\n\nOf particular concern is the imbalance between financial risk and potential commercial benefit. The Cardano Treasury would finance the acquisition and supporting infrastructure, while Toto Finance could retain commercial revenue from independent DeFi integrations. This arrangement raises legitimate questions about whether the treasury receives sufficient economic consideration for the risks it assumes.\n\nFurthermore, the proposal's reliance on future copper valuations, commodity liquidation, third-party custodians, and oversight arrangements introduces considerable uncertainty. The projected return of net proceeds after 36 months does not constitute a guarantee of principal recovery, nor does it adequately resolve concerns regarding enforceable ownership rights, financial exposure, and accountability.\n\nThe Cardano Treasury is not a venture capital fund, nor should it become a mechanism for transferring commercial risk from private enterprises to the community without commensurate protections and benefits.\n\nI believe Cardano should encourage private investment, commercial innovation, and the tokenization of real-world assets. However, commercial ventures seeking treasury financing must demonstrate clearly defined public benefits, enforceable safeguards, transparent financial arrangements, and a compelling justification for the expenditure.\n\nInnovation should be encouraged, but never at the expense of fiscal responsibility.\n\nMy responsibility as a DRep is to safeguard the treasury, demand accountability, and ensure that community resources are allocated prudently and in Cardano's long-term interests.\n\nFor these reasons, I vote NO.\n\n— Pallamus | Cardano DRep"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
