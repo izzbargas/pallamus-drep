@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "# Vote Rationale: NO\n\n**Governance Action:** AURORA — Open Infrastructure for Bringing Real Credit Markets to Cardano\n\nI recognize the potential benefits of bringing real-world credit markets to Cardano, and I support initiatives that strengthen the ecosystem through meaningful innovation and sustainable development.\n\nHowever, after reviewing AURORA's proposal and supporting documentation, I remain unconvinced that the requested 940,000 ADA Treasury allocation is sufficiently justified.\n\nWhile the proposal outlines open-source deliverables, milestone-based payments, and independent oversight, these measures primarily address project execution and accountability. They do not, by themselves, establish that the proposed infrastructure represents a necessary or economically sound investment for the Cardano ecosystem.\n\nMy concerns center on several fundamental issues.\n\n**First, demonstrated market demand.** The proposal acknowledges adoption risks while defining successful delivery primarily through technical completion rather than measurable market adoption. I believe a Treasury investment of this magnitude warrants stronger evidence of independent demand, meaningful integration commitments, and clearly defined economic benefits for the broader ecosystem.\n\n**Second, cost-effectiveness and alternative financing.** The proposed 800,000 ADA fixed implementation fee raises legitimate questions regarding the project's cost structure and whether comparable functionality could be delivered more economically through existing protocols, independent development, or private-sector partnerships. I would expect a more substantial comparative assessment before committing community funds.\n\n**Third, long-term sustainability.** Delivering functional infrastructure is only part of the equation. Who will maintain, operate, and improve these services after the initial funding period? What guarantees exist that the infrastructure will achieve sufficient adoption to justify its ongoing maintenance and operational requirements?\n\n**Finally, Treasury stewardship.** Cardano's Treasury is a finite community resource, and every allocation carries an opportunity cost. Funding one initiative necessarily reduces the resources available for others. Consequently, proposals should demonstrate not only technical feasibility and responsible execution, but also a compelling case for why community financing is necessary and proportionate to the expected benefits.\n\nI want to emphasize that my opposition is not a rejection of credit markets, open-source development, or innovation on Cardano. These are worthwhile pursuits. However, I do not believe technological ambition alone establishes an entitlement to Treasury resources.\n\nAs a DRep, my responsibility is to exercise independent judgment, protect the community's financial interests, and ensure that public funding decisions are supported by sufficient evidence, reasonable expectations, and measurable accountability.\n\n**The question is not simply whether AURORA can be built. The question is whether the benefits presented adequately justify asking the Cardano community to finance it.**\n\nBased on the documentation reviewed, I do not believe that threshold has been sufficiently demonstrated.\n\n**For these reasons, I vote NO on this governance action in its present form.**"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
