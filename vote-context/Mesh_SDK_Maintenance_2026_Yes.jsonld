@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "Vote: YES — Mesh SDK Maintenance 2026\n\nReliable infrastructure requires more than initial development. It requires continuous maintenance, security updates, compatibility with evolving protocols, and dependable support for the developers building upon it.\n\nMesh SDK provides open-source development tools used throughout the Cardano ecosystem. Maintaining those tools is not simply a convenience; it contributes directly to the reliability and continued development of applications that depend on them.\n\nMy support for this proposal rests on the demonstrable maintenance work completed throughout 2026, the documented developer usage, and the clearly defined funding request of ₳600,000.\n\nI also recognize the importance of establishing a sustainable approach to maintaining essential ecosystem software. However, future funding must remain subject to independent review, transparent expenditure reporting, measurable deliverables, and continued accountability.\n\nThe Cardano Treasury should support initiatives that provide broad ecosystem utility and demonstrable value rather than subsidizing speculative commercial ambitions without sufficient justification.\n\nWe cannot reasonably expect developers to build dependable applications while neglecting the tools upon which those applications rely.\n\nInnovation builds an ecosystem. Maintenance sustains it.\n\nMy YES vote reflects support for responsible investment in essential developer infrastructure and the long-term operational resilience of Cardano.\n\n— Pallamus, Cardano DRep"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
