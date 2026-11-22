@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "Vote: YES — Cardano Global Events 2027\n\nCardano has spent years building a secure, decentralized, and technologically sophisticated blockchain. However, technological excellence alone does not guarantee adoption. We must actively demonstrate Cardano's capabilities to developers, enterprises, institutions, and the broader global community.\n\nMy YES vote reflects my belief that strategic international exposure, ecosystem engagement, and meaningful industry partnerships are essential to Cardano's long-term growth and competitiveness.\n\nThe Cardano ecosystem cannot afford to remain technologically ambitious while allowing opportunities for adoption and recognition to pass it by. Our builders deserve visibility, our technology deserves serious consideration, and our community deserves the opportunity to compete on the world stage.\n\nHowever, my support is not unconditional.\n\nNearly ₳25 million represents a substantial commitment of Treasury resources. I expect responsible financial stewardship, transparent expenditure reporting, and measurable results. Success must extend beyond conference attendance, marketing impressions, and conversations. We should expect demonstrable progress in developer participation, meaningful partnerships, ecosystem expansion, and real-world adoption.\n\nI have consistently maintained that the Cardano Treasury must not become a mechanism for subsidizing private commercial interests without sufficient accountability. I distinguish such expenditures from initiatives intended to benefit the broader ecosystem, but that distinction does not excuse waste, inefficiency, or failure to deliver.\n\nCardano's future will ultimately be determined not by speculation or short-term price movements, but by the utility, resilience, and adoption of its technology.\n\nWe have invested years in building the foundation. It is time to demonstrate what can be built upon it.\n\nI vote YES in support of greater global exposure, ecosystem opportunity, and Cardano's long-term competitiveness, with the clear expectation that every ADA entrusted to this initiative is managed responsibly and produces measurable value for the community.\n\n— Pallamus, Cardano DRep"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
