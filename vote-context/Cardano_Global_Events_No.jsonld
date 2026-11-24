@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "Voting Rationale — NO\n\nProposal: Cardano Global Events 2027\nTreasury Withdrawal: 24,995,775 ADA\n\nAfter further deliberation and careful consideration of the arguments presented by members of the Cardano community, I have reconsidered my initial position and have elected to vote NO.\n\nWhile I remain a strong advocate for increasing Cardano's global visibility, attracting institutional interest, and expanding ecosystem adoption, I must weigh these objectives against the opportunity cost of committing nearly 25 million ADA in Treasury resources.\n\nMy primary concern is whether this expenditure represents the most effective and prudent use of our limited Treasury resources at this stage of Cardano's development.\n\nCardano must increasingly prioritize initiatives that deliver measurable commercial adoption, sustainable economic activity, liquidity growth, and meaningful on-chain utilization. Although participation in global events can contribute to these objectives, exposure alone does not guarantee their realization.\n\nI believe Treasury-funded initiatives of this magnitude should demonstrate:\n\nClearly defined and measurable performance indicators.\n\nTangible and independently verifiable outcomes.\n\nAccountability for the effective use of allocated resources.\n\nA compelling justification relative to alternative investments in ecosystem growth.\n\nA credible path toward long-term economic sustainability.\n\nFurthermore, I believe the Cardano Foundation should explore financing a greater portion of its promotional and marketing activities through its own financial resources.\n\nMy decision should not be interpreted as opposition to marketing, global representation, or the Cardano Foundation itself. Rather, it reflects a reassessment of our spending priorities and the need to exercise greater fiscal prudence.\n\nThis change in position is not the result of peer pressure, but of independent deliberation and consideration of reasonable and compelling arguments.\n\nAs a DRep, my responsibility is not to defend a previous decision for the sake of consistency, but to exercise sound judgment and responsible stewardship of the Cardano Treasury.\n\nMy principles remain unchanged. My assessment of how best to uphold them has evolved.\n\nVote: NO\n\n— Pallamus, DRep"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
